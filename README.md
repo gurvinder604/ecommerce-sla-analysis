@@ -81,22 +81,31 @@ cd ecommerce-sla-analysis
 # 03_eda_charts.ipynb   → 5 charts + Power BI export files
 
 # 4. Open Power BI dashboard
-# Open powerbi/sla_dashboard.pbix in Power BI Desktop
+# Open powerbi/ecommerce_sla_dashboard.pbix in Power BI Desktop
 ```
 
 ---
 
 ## 📊 Power BI Dashboard
 
-3-page interactive dashboard:
+A 3-page interactive dashboard built to communicate these findings to a non-technical business audience — structured to answer three sequential questions: *How are we performing? Why are we breaching? Where and for whom does it hurt most?*
 
-| Page | Content |
-|---|---|
-| **Overview** | Total orders, breach rate, severe breach %, avg days vs SLA + monthly trend |
-| **Root Cause** | Seller vs carrier split, breach by state, worst sellers |
-| **Order Intelligence** | Breach by value tier, severity breakdown, monthly volume |
+### Page 1 — Overview
+![Overview](dashboard_screenshots/page1_overview.png)
 
----
+Headline SLA performance across 96,470 delivered orders: 6.77% overall breach rate, 2.97% severe breaches, and the full breach rate trend from Oct 2016 to Aug 2018.
+
+### Page 2 — Root Cause Analysis
+![Root Cause](dashboard_screenshots/page2_root_cause.png)
+
+Isolates whether breaches originate from seller processing or carrier delivery. Carrier delivery time runs roughly 3x longer than seller processing time on breached orders — pointing to logistics partnerships, not warehouse operations, as the primary lever for improvement.
+
+### Page 3 — Geography & Value
+![Geography and Value](dashboard_screenshots/page3_geography_value.png)
+
+Breach rate by seller state and order value tier. Maranhão (MA) breaches at 19.1% — over 2.5x the next-highest state (São Paulo, 7.3%). Premium orders (R$500+) breach more than any other value tier, a counterintuitive finding given their higher stakes.
+
+📥 [Download the dashboard (.pbix)](dashboard/ecommerce_sla_dashboard.pbix)
 
 ## 🏢 Business Recommendations
 
@@ -115,7 +124,7 @@ Data Analyst | Python | SQL | Power BI
 
 - 🎓 BSc Computer Science (2:1) — University of West London
 - 📜 IBM Data Analyst Professional Certificate
-- 💼 2 years delivery operations experience (DPD UK) — informed this project's domain understanding
+- 💼 1 year of delivery operations experience (DPD UK) — informed this project's domain understanding
 - 🔗 LinkedIn: [linkedin.com/in/gurvindersingh2002](https://linkedin.com/in/gurvindersingh2002)
 - 🐙 GitHub: [github.com/gurvinder604](https://github.com/gurvinder604)
 
@@ -131,4 +140,4 @@ Available at: [kaggle.com/datasets/olistbr/brazilian-ecommerce](https://kaggle.c
 
 ---
 
-*Built as part of a data analyst portfolio — July 2025*
+*Built as part of a data analyst portfolio — July 2026*
