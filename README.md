@@ -13,7 +13,7 @@
 ## 📈 Charts
 
 ### 1. Monthly SLA Breach Rate Trend
-Performance improved overall (2016→2018) but with two critical spikes —
+Performance improved overall (2016→2018) but with two critical spikes 
 November 2017 (12.4%) and March 2018 (18.96%) both coinciding with
 peak order volumes. Suggests logistics capacity couldn't scale with growth.
 
@@ -88,22 +88,22 @@ cd ecommerce-sla-analysis
 
 ## 📊 Power BI Dashboard
 
-A 3-page interactive dashboard built to communicate these findings to a non-technical business audience — structured to answer three sequential questions: *How are we performing? Why are we breaching? Where and for whom does it hurt most?*
+A 3-page interactive dashboard built to communicate these findings to a non-technical business audience structured to answer three sequential questions: *How are we performing? Why are we breaching? Where and for whom does it hurt most?*
 
 ### Page 1 — Overview
-![Overview](dashboard_screenshots/page1_overview.png)
+![Overview](dashboard_screenshots/overview.png)
 
 Headline SLA performance across 96,470 delivered orders: 6.77% overall breach rate, 2.97% severe breaches, and the full breach rate trend from Oct 2016 to Aug 2018.
 
 ### Page 2 — Root Cause Analysis
-![Root Cause](dashboard_screenshots/page2_root_cause.png)
+![Root Cause](dashboard_screenshots/rootcause.png)
 
-Isolates whether breaches originate from seller processing or carrier delivery. Carrier delivery time runs roughly 3x longer than seller processing time on breached orders — pointing to logistics partnerships, not warehouse operations, as the primary lever for improvement.
+Isolates whether breaches originate from seller processing or carrier delivery. Carrier delivery time runs roughly 3x longer than seller processing time on breached orders pointing to logistics partnerships, not warehouse operations, as the primary lever for improvement.
 
 ### Page 3 — Geography & Value
-![Geography and Value](dashboard_screenshots/page3_geography_value.png)
+![Geography and Value](dashboard_screenshots/geography&value.png)
 
-Breach rate by seller state and order value tier. Maranhão (MA) breaches at 19.1% — over 2.5x the next-highest state (São Paulo, 7.3%). Premium orders (R$500+) breach more than any other value tier, a counterintuitive finding given their higher stakes.
+Breach rate by seller state and order value tier. Maranhão (MA) breaches at 19.1% over 2.5x the next-highest state (São Paulo, 7.3%). Premium orders (R$500+) breach more than any other value tier, a counterintuitive finding given their higher stakes.
 
 📥 [Download the dashboard (.pbix)](dashboard/ecommerce_sla_dashboard.pbix)
 
