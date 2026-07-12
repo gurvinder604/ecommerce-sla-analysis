@@ -96,12 +96,12 @@ A 3-page interactive dashboard built to communicate these findings to a non-tech
 Headline SLA performance across 96,470 delivered orders: 6.77% overall breach rate, 2.97% severe breaches, and the full breach rate trend from Oct 2016 to Aug 2018.
 
 ### Page 2 — Root Cause Analysis
-![Root Cause](dashboard_screenshots/rootcause.png)
+![Root Cause](dashboard_screenshots/root_cause.png)
 
 Isolates whether breaches originate from seller processing or carrier delivery. Carrier delivery time runs roughly 3x longer than seller processing time on breached orders pointing to logistics partnerships, not warehouse operations, as the primary lever for improvement.
 
 ### Page 3 — Geography & Value
-![Geography and Value](dashboard_screenshots/geography&value.png)
+![Geography and Value](dashboard_screenshots/geography_value.png)
 
 Breach rate by seller state and order value tier. Maranhão (MA) breaches at 19.1% over 2.5x the next-highest state (São Paulo, 7.3%). Premium orders (R$500+) breach more than any other value tier, a counterintuitive finding given their higher stakes.
 
