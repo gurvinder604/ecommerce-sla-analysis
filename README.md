@@ -101,7 +101,7 @@ Headline SLA performance across 96,470 delivered orders: 6.77% overall breach ra
 Isolates whether breaches originate from seller processing or carrier delivery. Carrier delivery time runs roughly 3x longer than seller processing time on breached orders pointing to logistics partnerships, not warehouse operations, as the primary lever for improvement.
 
 ### Page 3 — Geography & Value
-![Geography and Value](dashboard_screenshots/Geography_Value.png)
+![Geography and Value](dashboard_screenshots/Geography_Values.png)
 
 Breach rate by seller state and order value tier. Maranhão (MA) breaches at 19.1% over 2.5x the next-highest state (São Paulo, 7.3%). Premium orders (R$500+) breach more than any other value tier, a counterintuitive finding given their higher stakes.
 
